@@ -34,7 +34,7 @@ const Navbar = () => {
                                 <p><a href='connect' target='_blank' rel='noreferrer'>Connect With an Agent</a></p>
                                 <p><a href='#products'>Products</a></p>
                                 <div className='ben__navbar-menu_container-links_sign'>
-                                    <a href='claims' target='_blank' rel='noreferrer'><button>File a Claim</button></a>
+                                    <a href='login' target='_blank' rel='noreferrer'><button>File a Claim</button></a>
                                 </div>
                             </div>
                         </div>
