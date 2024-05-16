@@ -1,0 +1,131 @@
+.ben__header {
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.ben__header-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 500px;
+}
+
+.ben__header-container-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.ben__header-container-content h1,
+.ben__header-container-content h3 {
+    font-family: var(--font-one);
+    color: var(--color-bg);
+}
+
+.ben__header-container-content h3 {
+    font-family: var(--font-two);
+    padding: 2rem;
+}
+
+/* Button Styling */
+.ben__header-container-content button {
+    cursor: pointer;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+
+    margin-top: 3rem;
+    padding: 0.75em 3em;
+
+    font-family: var(--font-one);
+    text-transform: uppercase;
+    font-weight: 800;
+    color: var(--color-bg) !important;
+
+    border: 1.5px solid var(--snowy-green);
+    border-radius: 100vw;    
+    background: rgba(0, 0, 0, 0.8);
+
+    transition: all ease-in-out 0.4s;
+}
+
+.ben__header-container-content button:active,
+.ben__header-container-content a:active {
+    color: var(--color-bg);
+}
+
+.ben__header-container-content a {
+    text-decoration: none;
+    color: var(--color-bg);
+}
+
+.ben__header-container-content button:hover a {
+    color: #000;
+}
+
+.ben__header-container-content button:hover,
+.ben__header-container-content button:focus-visible {
+    color: #000;
+    background: var(--color-bg);
+}
+
+.ben__header-container-content button > span {
+    position: absolute;
+    z-index: -1;
+    width: 33.3333%;
+    height: 100%;
+
+    background: transparent;
+}
+
+.ben__header-container-content button > :first-child {
+    left: 0;
+    top: 0;
+}
+
+.ben__header-container-content button > :last-child {
+    right: 0;
+    top: 0;
+}
+
+.ben__header-container-content button::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 10%;
+    margin: auto;
+    opacity: 0;
+
+    aspect-ratio: 1;
+    border-radius: 50%;
+    inset: 0;
+
+    background-color: var(--dark-green);
+
+    transition: transform 1s 0.2s, opacity 0.2s;
+}
+
+.ben__header-container-content button:active::before {
+    transform: scale(20);
+    opacity: 1;
+
+    transition: transform 1s, opacity 0.5s;
+}
+
+.ben__header-container-content button:has(:first-child:active)::before {
+    margin-left: 0;
+}
+
+.ben__header-container-content button:has(:last-child:active)::before {
+    margin-right: 0;
+}
+
+.ben__header-container-content button:has(:first-child:active)::before,
+.ben__header-container-content button:has(:last-child:active)::before {
+    transition: transform 0.5s, opacity 0.25s;
+}
+

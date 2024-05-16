@@ -1,0 +1,152 @@
+.ben__family p,
+.ben__family a,
+.ben__family svg {
+    color: #000;
+}
+
+.ben__family .ben__navbar .navbar-icon {
+    fill: #000 !important;
+    color: #000 !important;
+}
+
+.ben__family .ben__navbar-menu_container-links p,
+.ben__family .ben__navbar-menu_container-links a {
+    color: var(--color-bg);
+}
+
+.ben__family a:hover {
+    color: var(--dark-green);
+}
+
+.ben__family-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 5rem;
+}
+
+.ben__family-body h1 {
+    font-family: var(--font-one);
+    font-size: 3rem;
+}
+
+.ben__family-body p {
+    font-family: var(--font-two);
+
+    margin-top: 3rem;
+    width: 70%;
+}
+
+.ben__family-body span {
+    color: var(--dark-green);
+    text-decoration: underline;
+    
+    cursor: pointer;
+}
+
+.ben__family-body span:hover {
+    font-weight: 450;
+}
+
+/* Form Section */
+.ben__family-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 3rem 0rem;
+}
+
+.ben__family-input h3 {
+    font-family: var(--font-one);
+    font-size: 1.5rem;
+
+    margin: 2rem;
+}
+
+.ben__family-input p {
+    font-family: var(--font-two);
+
+    margin: 2rem;
+}
+
+.ben__family-input span {
+    color: var(--dark-green);
+    font-weight: bold;
+}
+
+.ben__family-input input {
+    font-family: var(--font-one);
+
+    margin: 1rem;
+    height: 2rem;
+
+    text-align: center;
+
+    border-radius: 10px;
+    border: solid 2px var(--dark-green);
+
+    transition: all ease-in-out 0.4s;
+}
+
+.ben__family-input input:hover {
+    background: #000;
+
+    color: var(--color-bg);
+}
+
+/* Buttons */
+.ben__family-input_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 2rem;
+}
+
+.ben__family-input_btn button {
+    margin: 0.5rem;
+
+    border-radius: 5px;
+    padding: 1.5rem 2rem;
+    width: 16rem;
+
+    font-family: var(--font-one);
+    background: var(--dark-green);
+    color: var(--color-bg);
+    font-weight: bold;
+    font-size: 1rem;
+
+    border: none;
+    cursor: pointer;
+
+    transition: all ease-in-out 0.4s;
+}
+
+.ben__family-input_btn a:nth-of-type(2) button {
+    background: var(--snowy-green);
+    color: #000;
+    border: solid 2px #000;
+}
+
+.ben__family-input_btn a:nth-of-type(2) button:hover {
+    background: #000;
+    color: var(--color-bg);
+}
+
+.ben__family-input_btn button:hover {
+    background: #000;
+}
+
+.ben__family-input_btn .fab {
+    font-size: 1.5rem;
+
+    margin-left: 1.5rem;
+
+    color: var(--color-bg);
+}

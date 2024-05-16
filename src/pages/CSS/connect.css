@@ -1,0 +1,141 @@
+.ben__connect p,
+.ben__connect a,
+.ben__connect svg {
+    color: #000;
+}
+
+.ben__connect .ben__navbar .navbar-icon {
+    fill: #000;
+    color: #000
+}
+
+.ben__connect .ben__navbar-menu_container-links p,
+.ben__connect .ben__navbar-menu_container-links a {
+    color: var(--color-bg);
+}
+
+.ben__connect a:hover {
+    color: var(--dark-green);
+}
+
+.ben__connect-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 5rem;
+}
+
+.ben__connect-body h1 {
+    font-family: var(--font-one);
+    font-size: 3rem;
+}
+
+.ben__connect-body p {
+    font-family: var(--font-two);
+
+    margin-top: 3rem;
+    width: 70%;
+}
+
+.ben__connect-body span {
+    color: var(--dark-green);
+    text-decoration: underline;
+    
+    cursor: pointer;
+}
+
+.ben__connect-body span:hover {
+    font-weight: 450;
+}
+
+/* Form Section */
+.ben__connect-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 5rem 0rem;
+}
+
+.ben__connect-input h3 {
+    font-family: var(--font-one);
+    font-size: 1.5rem;
+
+    margin: 2rem;
+}
+
+.ben__connect-input p {
+    font-family: var(--font-two);
+
+    margin: 2rem;
+}
+
+.ben__connect-input span {
+    color: var(--dark-green);
+    font-weight: bold;
+}
+
+.ben__connect-input input {
+    font-family: var(--font-one);
+
+    margin: 1rem;
+    height: 2rem;
+
+    text-align: center;
+
+    border-radius: 10px;
+    border: solid 2px var(--dark-green);
+
+    transition: all ease-in-out 0.4s;
+}
+
+.ben__connect-input input:hover {
+    background: #000;
+
+    color: var(--color-bg);
+}
+
+/* Buttons */
+.ben__connect-input_btn {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem;
+}
+
+.ben__connect-input_btn button {
+    margin: 1rem;
+
+    border-radius: 5px;
+    padding: 1.5rem 2rem;
+    width: 16rem;
+
+    font-family: var(--font-one);
+    background: var(--dark-green);
+    color: var(--color-bg);
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    border: none;
+    cursor: pointer;
+
+    transition: all ease-in-out 0.4s;
+}
+
+.ben__connect-input_btn button:hover {
+    background: #000;
+}
+
+.ben__connect-input_btn .fab {
+    font-size: 1.5rem;
+
+    margin-left: 1.5rem;
+
+    color: var(--color-bg);
+}

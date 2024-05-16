@@ -1,0 +1,156 @@
+/* Navbar Styling */
+.ben__login .ben__navbar-links {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.ben__login p,
+.ben__login a,
+.ben__login svg {
+    color: #000;
+}
+
+.ben__login .ben__navbar .navbar-icon {
+    fill: #000;
+    color: #000
+}
+
+.ben__login .ben__navbar-menu_container-links p,
+.ben__login .ben__navbar-menu_container-links a {
+    color: var(--color-bg);
+}
+
+.ben__login a:hover {
+    color: var(--dark-green);
+}
+
+.ben__login button {
+    display: none;
+}
+
+.ben__login .ben__navbar-menu_container-links_sign {
+    display: none;
+}
+
+/* Body Content */
+.ben__login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 4rem;
+}
+
+.ben__login-body h1 {
+    font-family: var(--font-one);
+    
+    margin-bottom: 4rem;
+}
+
+.ben__login-body_input label {
+    font-family: var(--font-two);
+
+    display: flex;
+    justify-content: center;
+}
+
+.ben__login-body_input input {
+    display: flex;
+    flex-direction: column;
+
+    font-family: var(--font-one);
+
+    margin: 1rem;
+    height: 2rem;
+    width: 16rem;
+
+    text-align: center;
+
+    border-radius: 10px;
+    border: solid 2px var(--dark-green);
+
+    transition: all ease-in-out 0.4s;
+}
+
+.ben__login-body_input select {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+
+    cursor: pointer;
+
+    text-align: center; 
+    text-align-last: center; 
+
+    padding: 0 10px;
+    font-family: var(--font-two);
+    border-radius: 10px;
+    border: solid 2px var(--dark-green);
+    margin: 1rem;
+    height: 2rem;
+    width: 16rem;
+
+    transition: all ease-in-out 0.4s;
+}
+
+.ben__login-body_input option {
+    text-align: center;
+}
+
+.ben__login-body_input input:hover {
+    background: #000;
+
+    color: var(--color-bg);
+}
+
+.ben__login-body_input-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.ben__login-body_input button {
+    display: flex;
+
+    cursor: pointer;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+
+    margin-bottom: 0.1rem;
+    padding: 0.5em 1.5em;
+
+    font-family: var(--font-one);
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #000;
+
+    border: solid 1px #000;
+    border-radius: 100vw;    
+    background: var(--snowy-green);
+
+    transition: all 0.3s;
+}
+
+.ben__login-body_input button:hover {
+    color: var(--color-bg);
+    background: var(--dark-green);
+}
+
+.ben__login-body_input-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: var(--font-two);
+}
+
+.ben__login-body_input-span span {
+    color: var(--dark-green);
+
+    text-decoration: underline;
+    cursor: pointer;
+}

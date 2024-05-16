@@ -1,0 +1,102 @@
+.ben__agent p,
+.ben__agent a,
+.ben__agent svg {
+    color: #000;
+}
+
+.ben__agent .ben__navbar .navbar-icon {
+    fill: #000 !important;
+    color: #000 !important;
+}
+
+.ben__agent .ben__navbar-menu_container-links p,
+.ben__agent .ben__navbar-menu_container-links a {
+    color: var(--color-bg);
+}
+
+.ben__agent a:hover {
+    color: var(--dark-green);
+}
+
+.ben__family-input_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ben__family-input_form-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ben__family-input_form-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.ben__family-input_form-name input {
+    margin: 0.5rem;
+}
+
+.ben__family-input_form-contact input {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.ben__family-input_form input {
+    font-family: var(--font-one);
+
+    height: 2rem;
+
+    text-align: center;
+
+    border-radius: 10px;
+    border: solid 2px var(--dark-green);
+
+    transition: all ease-in-out 0.4s;
+}
+
+.ben__family-input_form input:hover {
+    background: #000;
+
+    color: var(--color-bg);
+}
+
+/* Button Styling */
+.ben__family-input_form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 2rem;
+}
+
+.ben__family-input_form-btn button {
+    cursor: pointer;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+
+    margin-bottom: 0.1rem;
+    padding: 0.75em 2em;
+
+    font-family: var(--font-one);
+    text-transform: uppercase;
+    font-weight: 800;
+    color: var(--color-bg);
+
+    border: none;
+    border-radius: 100vw;    
+    background: var(--dark-green);
+
+    transition: all 0.3s;
+}
+
+.ben__family-input_form-btn button:hover,
+.ben__family-input_form-btn button:focus-visible {
+    color: #000;
+    background: var(--snowy-green);
+    border: 1px solid black;
+}
