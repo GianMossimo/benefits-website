@@ -38,7 +38,7 @@
     }
 
     .ben__cancer-header h3 {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 
 }
@@ -50,7 +50,7 @@
     }
 
     .ben__cancer-header h3 {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 
 }
@@ -62,7 +62,7 @@
     }
 
     .ben__cancer-header h3 {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
     }
 
 }
@@ -70,7 +70,11 @@
 @media screen and (max-width: 430px) {
     
     .ben__cancer-header h1 {
-        font-size: 2rem;
+        font-size: 2.4rem;
+    }
+
+    .ben__cancer-header h3 {
+        font-size: 0.8rem;
     }
 
 }

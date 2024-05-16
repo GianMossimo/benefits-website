@@ -33,7 +33,6 @@ const Navbar = () => {
                                 <p><a href='/' rel='noreferrer'>Home</a></p>
                                 <p><a href='connect' target='_blank' rel='noreferrer'>Connect With an Agent</a></p>
                                 <p><a href='#products'>Products</a></p>
-                                <p><a href='claims' target='_blank' rel='noreferrer'>File a Claim</a></p>
                                 <div className='ben__navbar-menu_container-links_sign'>
                                     <a href='claims' target='_blank' rel='noreferrer'><button>File a Claim</button></a>
                                 </div>
