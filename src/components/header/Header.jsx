@@ -13,7 +13,7 @@ const Header = ({ title, subtitle, buttonText, buttonUrl, imageUrl }) => {
                     <a href={buttonUrl} target='_blank' rel="noreferrer">
                         <button className='ben__header-container-content-btn'>
                             <span></span>
-                            <a>{buttonText}</a>
+                            <a href='connect' target='_blank' rel="noreferrer" >{buttonText}</a>
                             <span></span>
                         </button>
                     </a>

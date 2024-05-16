@@ -10,8 +10,6 @@ import { } from '@fortawesome/free-regular-svg-icons';
 import { faPersonFallingBurst, faRibbon, faHeartCrack, faTooth, faHospital, faDove, faCrutch, faGlasses } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import header from '../assets/header.jpg';
-
 const Home = () => {
     return (
         <div className='ben__home' id='home'>
